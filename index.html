@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    <title>hello</title>
-     <meta charset="utf-8">
-     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" scr="js/happy.js"></script>
-    </head>
-    <body>
-      <ul>
-				<li><input id="card" type="button" value="Home" style="font-size:15px;" onclick="
+<head>
+  <title>hello</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="js/happy.js"></script>
+</head>
+
+<body>
+  <ul>
+    <li><input id="card" type="button" value="Home" style="font-size:15px;" onclick="
           happyHandler ();
         ">
-        </li>
-				<li><a href="https://instagram.com/joyful.suk?igshid=YmMyMTA2M2Y=" target="_blank"> Instagram </a></li>
-				<li class="dropdown">
-					<a href="index.html" class="dropbtn"> Watch </a>
-          <div class="dropdown-content">
-            <a href="pages/1.html"> picture </a>
-            <a href="pages/1.html"> card </a>
-            <a href="pages/1.html"> video </a>
-          </div>
-        </li>
-			</ul>
-      <script>
-        var happy = ['Happy','birth','day'];
-      </script>
-      <ul>
-        <script>
-          var i = 0;
-          while(i < happy.length){
-            document.write('<li><a href="https://www.youtube.com/results?search_query=/'+happy[i]+'"> '+happy [i]+'</a></li>');
-            i = i + 1;
-          }
-        </script>
-		</body>
-	</html>
+    </li>
+    <li><a href="https://instagram.com/joyful.suk?igshid=YmMyMTA2M2Y=" target="_blank"> Instagram </a></li>
+    <li class="dropdown">
+      <a href="index.html" class="dropbtn"> Watch </a>
+      <div class="dropdown-content">
+        <a href="pages/1.html"> picture </a>
+        <a href="pages/1.html"> card </a>
+        <a href="pages/1.html"> video </a>
+      </div>
+    </li>
+  </ul>
+  <script>
+    var happy = ['Happy', 'birth', 'day'];
+  </script>
+  <ul>
+    <script>
+      var i = 0;
+      while (i < happy.length) {
+        document.write('<li><a href="https://www.youtube.com/results?search_query=/' + happy[i] + '"> ' + happy[i] + '</a></li>');
+        i = i + 1;
+      }
+    </script>
+</body>
+</html>
